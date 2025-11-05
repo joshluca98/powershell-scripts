@@ -1,0 +1,13 @@
+<Configuration>
+	<Add OfficeClientEdition="64" MigrateArch="TRUE" Channel="Current">
+		<Product ID="O365ProPlusRetail">
+			<Language ID="en-us" /> 
+			<ExcludeApp ID="InfoPath" /> 
+			<ExcludeApp ID="Lync" /> 
+		</Product>
+	</Add>
+	<Display Level="Full" AcceptEULA="TRUE" /> 
+	<Updates Enabled="TRUE" UpdatePath="http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60" />
+	<Property Name="FORCEAPPSHUTDOWN" Value="TRUE" /> 
+	<Property Name="AUTOACTIVATE" Value="1" /> 
+</Configuration>
